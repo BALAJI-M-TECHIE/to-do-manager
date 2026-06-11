@@ -42,13 +42,18 @@ export default function App() {
     return true;
   });
 
+  const completedCount = tasks.filter((task) => task.completed).length;
+
   return (
     <div className="app">
       <h1>📝 Smart Task Manager</h1>
+      <p className="summary">
+        {completedCount} of {tasks.length} tasks completed
+      </p>
 
       <TaskInput addTask={addTask} />
 
-      <Filter setFilter={setFilter} />
+      <Filter filter={filter} setFilter={setFilter} />
 
       <TaskList
         tasks={filteredTasks}
