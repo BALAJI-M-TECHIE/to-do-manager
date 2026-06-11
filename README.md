@@ -1,14 +1,20 @@
 # To-Do Manager
 
-A lightweight React + Vite to-do list manager built with task creation, deletion, completion toggles and filter controls.
+A polished React + Vite task manager with persistence, categories, priorities, due dates, drag-and-drop ordering, and theme support.
 
 ## Features
 
-- Add new tasks with a simple input form
-- Mark tasks complete or incomplete
-- Delete tasks from the list
-- Filter tasks by all, completed, or pending
-- Responsive UI with active filter highlighting
+- Save tasks to Local Storage automatically.
+- Load saved tasks when the app starts and preserve data after refresh.
+- Edit existing tasks inline with category, priority, and due date updates.
+- Search tasks in real time by task title.
+- Filter tasks by status (all/completed/pending) and category.
+- Sort tasks by priority or preserve a custom drag-and-drop order.
+- Highlight overdue tasks and warn for upcoming deadlines.
+- Toggle dark mode and persist theme preference.
+- Dashboard statistics for total, completed, pending, and completion percentage.
+- Toast notifications on add, update, delete, complete, and reorder actions.
+- Mobile-first responsive UI.
 
 ## Local setup
 
@@ -32,4 +38,4 @@ A lightweight React + Vite to-do list manager built with task creation, deletion
 
 ## Notes
 
-This project uses React 19 and Vite for a fast development experience. ESLint is configured for clean code and formatting consistency.
+This project uses React 19, Vite, and React Toastify for notifications. State is managed with React Context and persisted in Local Storage for a professional user experience.
