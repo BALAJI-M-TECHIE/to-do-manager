@@ -26,19 +26,14 @@ A modern and feature-rich task management application built with React and Vite.
 
 ### Dashboard
 
-(Add Screenshot Here)
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/8a13c4e8-90a6-4e74-bd83-b9996b7b19a5" />
 
-### Task Management
-
-(Add Screenshot Here)
 
 ### Filters & Search
+<img width="1091" height="555" alt="image" src="https://github.com/user-attachments/assets/06b834d1-6e22-4967-afea-b0e23033fc40" />
+<img width="1027" height="742" alt="image" src="https://github.com/user-attachments/assets/1bc0f5b1-04cb-4f9e-97ff-c03d43957ca4" />
 
-(Add Screenshot Here)
 
-### Dark Mode
-
-(Add Screenshot Here)
 
 ---
 
