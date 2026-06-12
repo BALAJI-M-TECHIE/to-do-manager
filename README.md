@@ -1,41 +1,158 @@
-# To-Do Manager
+# 📝 React To-Do Manager
 
-A polished React + Vite task manager with persistence, categories, priorities, due dates, drag-and-drop ordering, and theme support.
+A modern and feature-rich task management application built with React and Vite. The application helps users organize tasks efficiently with categories, priorities, due dates, drag-and-drop ordering, dashboard analytics, and persistent storage using Local Storage.
 
-## Features
+---
 
-- Save tasks to Local Storage automatically.
-- Load saved tasks when the app starts and preserve data after refresh.
-- Edit existing tasks inline with category, priority, and due date updates.
-- Search tasks in real time by task title.
-- Filter tasks by status (all/completed/pending) and category.
-- Sort tasks by priority or preserve a custom drag-and-drop order.
-- Highlight overdue tasks and warn for upcoming deadlines.
-- Toggle dark mode and persist theme preference.
-- Dashboard statistics for total, completed, pending, and completion percentage.
-- Toast notifications on add, update, delete, complete, and reorder actions.
-- Mobile-first responsive UI.
+## 🚀 Features
 
-## Local setup
+* ✅ Create, edit, and delete tasks
+* 📂 Organize tasks using categories
+* 🔥 Set task priorities (High, Medium, Low)
+* 📅 Add and manage due dates
+* 🔍 Real-time task search
+* 🎯 Filter tasks by status and category
+* 📊 Dashboard statistics and completion tracking
+* ↕️ Drag-and-drop task reordering
+* ⏰ Overdue task highlighting
+* 🌙 Dark Mode support
+* 💾 Automatic Local Storage persistence
+* 🔔 Toast notifications for user actions
+* 📱 Fully responsive design
 
-1. Install dependencies:
+---
 
-   ```bash
-   npm install
-   ```
+## 📸 Screenshots
 
-2. Run the development server:
+### Dashboard
 
-   ```bash
-   npm run dev
-   ```
+(Add Screenshot Here)
 
-3. Build for production:
+### Task Management
 
-   ```bash
-   npm run build
-   ```
+(Add Screenshot Here)
 
-## Notes
+### Filters & Search
 
-This project uses React 19, Vite, and React Toastify for notifications. State is managed with React Context and persisted in Local Storage for a professional user experience.
+(Add Screenshot Here)
+
+### Dark Mode
+
+(Add Screenshot Here)
+
+---
+
+## 📂 Project Structure
+
+```text
+src
+│
+├── assets/
+│   ├── hero.png
+│   ├── react.svg
+│   └── vite.svg
+│
+├── components/
+│   ├── Filter.jsx
+│   ├── TaskInput.jsx
+│   ├── TaskItem.jsx
+│   └── TaskList.jsx
+│
+├── context/
+│   └── TaskContext.jsx
+│
+├── App.jsx
+├── App.css
+├── styles.css
+└── main.jsx
+
+public/
+│
+├── favicon.svg
+└── icons.svg
+```
+
+---
+
+## ⚙️ Technologies Used
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,vite,js,html,css,git,github,vscode" />
+</p>
+
+### Additional Concepts
+
+* React Context API
+* Local Storage
+* Drag & Drop Functionality
+* Component-Based Architecture
+* Responsive Design
+* State Management
+
+---
+
+## 🏗️ Architecture
+
+### Component Structure
+
+```text
+App
+│
+├── TaskInput
+│
+├── Filter
+│
+├── TaskList
+│   └── TaskItem
+│
+└── TaskContext
+```
+
+### Data Flow
+
+```text
+User Action
+      │
+      ▼
+TaskInput / TaskItem
+      │
+      ▼
+TaskContext
+      │
+      ▼
+React State
+      │
+      ▼
+Local Storage
+      │
+      ▼
+UI Re-render
+```
+
+---
+
+## 🎯 Key Learnings
+
+* Building scalable React applications
+* Context API for state management
+* Persisting data with Local Storage
+* Component reusability
+* Drag-and-drop interactions
+* Responsive UI design
+* Dark mode implementation
+* Managing complex application state
+
+---
+
+
+## 🌟 Future Improvements
+
+* User Authentication
+* Cloud Database Integration
+* Task Reminders
+* Team Collaboration Features
+* Progress Analytics Dashboard
+
+---
+
+⭐ Built with React, Vite, and modern frontend development practices.
