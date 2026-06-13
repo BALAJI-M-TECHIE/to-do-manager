@@ -3,6 +3,8 @@
 🌐 **Live Demo:** https://to-do-manager-gray.vercel.app/
 💻 **GitHub Repository:** https://github.com/BALAJI-M-TECHIE/to-do-manager.git
 
+---
+
 A modern and feature-rich task management application built with React and Vite. The application helps users organize tasks efficiently with categories, priorities, due dates, drag-and-drop ordering, dashboard analytics, and persistent storage using Local Storage.
 
 ---
